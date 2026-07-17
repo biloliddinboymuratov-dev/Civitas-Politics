@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Civitas Politics — Youth-Led Political Platform</title>
+  <meta name="description" content="Civitas Politics is an independent, youth-led platform enhancing political literacy and fostering critical thinking among the younger generation.">
+  <meta name="keywords" content="politics, youth, uzbekistan, civitas, political literacy, community">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+  HEADER & NAVIGATION
+  ========================================== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo">Civitas <span>Politics</span></a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active">Home</a></li>
+          <li><a href="#news" class="nav__link">News</a></li>
+          <li><a href="#press" class="nav__link">Press</a></li>
+          <li><a href="#podcasts" class="nav__link">Podcasts</a></li>
+          <li><a href="#voices" class="nav__link">User Voices</a></li>
+          <li><a href="#reach" class="nav__link">Reach</a></li>
+          <li><a href="#join" class="nav__link">Join</a></li>
+          <li><a href="#collab" class="nav__link">Collab</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="#join" class="btn btn--primary btn--sm">Join Us</a>
+        <button class="icon-btn" aria-label="Search"><i class="fas fa-search"></i></button>
+        <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================
+  HERO SECTION
+  ========================================== -->
+  <section class="hero" id="home">
+    <div class="hero__grid">
+      <div class="hero__image-wrapper reveal">
+        <img
+          src="https://www.metrofamilymagazine.com/wp-content/uploads/2020/09/AdobeStock_293355176-scaled.jpeg"
+          alt="Youth discussing and learning together"
+          class="hero__image"
+          loading="eager"
+        >
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title reveal reveal-delay-1">
+          Where Young Minds<br>Shape <em>Political Discourse</em>
+        </h1>
+        <p class="hero__description reveal reveal-delay-2">
+          Civitas Politics is an independent, youth-led platform based in Uzbekistan, dedicated to enhancing political literacy, fostering critical thinking, and giving a powerful voice to the younger generation. Founded in 2025 by high-schooler Biloliddin Boymurotov, it initially started as a simple, passionate school political club. Today, it has rapidly grown and proudly operates as an official member of the prestigious Civitas Global network.
+        </p>
+        <div class="hero__actions reveal reveal-delay-3">
+          <a href="#voices" class="btn btn--primary btn--lg">Explore Voices</a>
+          <a href="#join" class="btn btn--outline btn--lg">Join the Movement</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  COUNTER STATS BLOCK
+  ========================================== -->
+  <section class="counters" aria-label="Platform statistics">
+    <div class="counters__grid">
+      <div class="counter-item reveal">
+        <div class="counter-item__number">
+          <span class="counter-value" data-target="8000">0</span><span class="suffix">+</span>
+        </div>
+        <div class="counter-item__divider"></div>
+        <div class="counter-item__label">Youth Community Members</div>
+      </div>
+      <div class="counter-item reveal reveal-delay-1">
+        <div class="counter-item__number">
+          <span class="counter-value" data-target="500">0</span><span class="suffix">+</span>
+        </div>
+        <div class="counter-item__divider"></div>
+        <div class="counter-item__label">User-Submitted Analytical Articles</div>
+      </div>
+      <div class="counter-item reveal reveal-delay-2">
+        <div class="counter-item__number">
+          <span class="counter-value" data-target="1">0</span>
+        </div>
+        <div class="counter-item__divider"></div>
+        <div class="counter-item__label">Global Network Membership</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  GLOBAL REACH MAP
+  ========================================== -->
+  <section class="section reach-map" id="reach">
+    <div class="container">
+      <div class="reach-map__header">
+        <span class="section__label reveal">Global Footprint</span>
+        <h2 class="section__title reveal reveal-delay-1">Where We've Reached</h2>
+        <p class="section__subtitle reveal reveal-delay-2">
+          Student contributors, community members, and partner institutions spanning <strong>87 countries</strong> across every inhabited continent.
+        </p>
+      </div>
+
+      <div class="reach-map__stats reveal reveal-delay-1">
+        <div class="reach-map__stat">
+          <span class="reach-map__stat-number">
+            <span class="counter-value" data-target="87">0</span>
+          </span>
+          <span class="reach-map__stat-label">Countries Reached</span>
+        </div>
+        <div class="reach-map__stat">
+          <span class="reach-map__stat-number">
+            <span class="counter-value" data-target="487">0</span><span class="suffix">+</span>
+          </span>
+          <span class="reach-map__stat-label">Student Contributors</span>
+        </div>
+        <div class="reach-map__stat">
+          <span class="reach-map__stat-number">
+            <span class="counter-value" data-target="6">0</span>
+          </span>
+          <span class="reach-map__stat-label">Continents Reached</span>
+        </div>
+      </div>
+
+      <div class="reach-map__visual reveal reveal-delay-2" id="worldMap">
+        <div class="reach-map__bg">
+          <img
+            src="https://media.istockphoto.com/id/1349135275/vector/world-map-each-country-on-a-separate-layer.jpg?s=612x612&w=0&k=20&c=EBCQSNKLCNOiTKR3lVZjuMCg_ugyCwLJSQF8BUqgk38="
+            alt="World map"
+            class="reach-map__bg-img"
+            loading="lazy"
+          >
+        </div>
+        <svg viewBox="0 0 1000 500" class="reach-map__svg" aria-label="Country dots overlay"></svg>
+        <div class="reach-map__legend" id="mapLegend"></div>
+      </div>
+
+      <div class="reach-map__countries reveal">
+        <span class="reach-map__countries-toggle" id="countriesToggle">
+          <i class="fas fa-list"></i> Show all 87 countries
+        </span>
+        <div class="reach-map__countries-list" id="countriesList"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  NEWS SECTION
+  ========================================== -->
+  <section class="section news" id="news">
+    <div class="container">
+      <div class="news__header">
+        <span class="section__label reveal">Stay Informed</span>
+        <h2 class="section__title reveal reveal-delay-1">Latest Political News</h2>
+        <p class="section__subtitle reveal reveal-delay-2">
+          Curated global and local political coverage, updated in real-time.
+        </p>
+      </div>
+
+      <div id="politics-news-container" class="news__grid">
+        <div class="rss-feed" id="newsLoading">
+          <div class="rss-feed__icon"><i class="fas fa-rss"></i></div>
+          <h3 class="rss-feed__title">Loading Latest News</h3>
+          <p class="rss-feed__text">
+            Fetching real-time global political news from leading sources...
+          </p>
+          <div class="rss-feed__status">
+            <span class="pulse-ring"></span>
+            Connecting to RSS Feed
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  PRESS SECTION
+  ========================================== -->
+  <section class="section press" id="press">
+    <div class="container">
+      <div class="press__header">
+        <span class="section__label reveal">Categories</span>
+        <h2 class="section__title reveal reveal-delay-1">Press Room</h2>
+        <p class="section__subtitle reveal reveal-delay-2">
+          Browse our collection of articles, research papers, book reviews, commentary, and more.
+        </p>
+      </div>
+
+      <div class="press__tabs reveal" id="pressTabs">
+        <button class="press__tab active" data-category="articles">
+          <i class="fas fa-newspaper"></i> Articles
+        </button>
+        <button class="press__tab" data-category="research">
+          <i class="fas fa-scroll"></i> Research Papers
+        </button>
+        <button class="press__tab" data-category="reviews">
+          <i class="fas fa-book-open"></i> Book Reviews
+        </button>
+        <button class="press__tab" data-category="commentary">
+          <i class="fas fa-quote-right"></i> Commentary
+        </button>
+        <button class="press__tab" data-category="other">
+          <i class="fas fa-folder-open"></i> Others
+        </button>
+      </div>
+
+      <div class="press__content" id="pressContent">
+        <!-- Articles -->
+        <div class="press__category active" data-category="articles">
+          <div class="press__items">
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1504711434969-e33886168d6c?auto=format&fit=crop&w=400&q=80" alt="Article cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">The Future of Democracy in Central Asia</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=400&q=80" alt="Article cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">Youth Political Engagement in the Digital Age</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=400&q=80" alt="Article cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">Geopolitical Shifts in the 21st Century</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Research Papers -->
+        <div class="press__category" data-category="research">
+          <div class="press__items">
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80" alt="Research cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">Comparative Analysis of Electoral Systems</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=400&q=80" alt="Research cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">Soft Power and Cultural Diplomacy in Central Asia</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=400&q=80" alt="Research cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">Water Diplomacy in Transboundary Basins</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Book Reviews -->
+        <div class="press__category" data-category="reviews">
+          <div class="press__items">
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=400&q=80" alt="Book cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">Animal Farm — George Orwell</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=400&q=80" alt="Book cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">1984 — George Orwell</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=400&q=80" alt="Book cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">The Prince — Niccolò Machiavelli</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Commentary -->
+        <div class="press__category" data-category="commentary">
+          <div class="press__items">
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=400&q=80" alt="Commentary cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">On the State of Global Democracy</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?auto=format&fit=crop&w=400&q=80" alt="Commentary cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">The Role of Media in Modern Politics</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Others -->
+        <div class="press__category" data-category="other">
+          <div class="press__items">
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=400&q=80" alt="Document cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">Civitas Politics — Official Statement</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+            <div class="press-item">
+              <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=400&q=80" alt="Document cover" class="press-item__cover" loading="lazy">
+              <div class="press-item__body">
+                <h4 class="press-item__title">Civitas Politics — Monthly Newsletter</h4>
+                <span class="press-item__meta">Coming soon &middot; PDF upload pending</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  PODCASTS SECTION
+  ========================================== -->
+  <section class="section podcasts" id="podcasts">
+    <div class="container">
+      <div class="podcasts__header">
+        <span class="section__label reveal">Listen & Watch</span>
+        <h2 class="section__title reveal reveal-delay-1">Civitas Podcasts</h2>
+        <p class="section__subtitle reveal reveal-delay-2">
+          In-depth conversations on politics, diplomacy, and youth leadership.
+        </p>
+      </div>
+
+      <!-- Featured Episode -->
+      <div class="podcast-featured reveal">
+        <div class="podcast-featured__grid">
+          <div class="podcast-featured__video">
+            <a
+              href="https://youtu.be/pNepKgp8gio?si=uVJBPvdEyb1k2Zyl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="podcast-featured__thumb-link"
+              aria-label="Watch Episode 1 on YouTube"
+            >
+              <img
+                src="https://img.youtube.com/vi/pNepKgp8gio/maxresdefault.jpg"
+                alt="Episode 1: Civitas Politics Introduction thumbnail"
+                class="podcast-featured__thumb"
+                loading="lazy"
+                onerror="this.src='https://img.youtube.com/vi/pNepKgp8gio/hqdefault.jpg'"
+              >
+              <div class="podcast-featured__play">
+                <i class="fas fa-play"></i>
+              </div>
+            </a>
+          </div>
+          <div class="podcast-featured__info">
+            <span class="podcast-featured__label">
+              <i class="fas fa-microphone"></i> Latest Episode
+            </span>
+            <h3 class="podcast-featured__title">Episode 1: Civitas Politics Introduction</h3>
+            <p class="podcast-featured__description">
+              In our inaugural episode, founder Biloliddin Boymurotov sits down to discuss the vision behind Civitas Politics, 
+              the journey from a school club to a global network member, and what lies ahead for youth political engagement.
+            </p>
+            <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+              <span style="font-size:0.8rem;color:var(--text-secondary);"><i class="far fa-clock"></i> 28 min</span>
+              <span style="font-size:0.8rem;color:var(--text-secondary);"><i class="far fa-calendar"></i> July 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coming Soon Grid -->
+      <div class="podcast-grid">
+        <div class="podcast-card podcast-card--skeleton reveal">
+          <div class="podcast-card__icon"><i class="fas fa-headphones"></i></div>
+          <h4 class="podcast-card__title">Episode 2: Coming Soon</h4>
+          <div class="podcast-card__skeleton-bar"></div>
+          <p class="podcast-card__text">Recording in progress — stay tuned</p>
+        </div>
+        <div class="podcast-card podcast-card--skeleton reveal reveal-delay-1">
+          <div class="podcast-card__icon"><i class="fas fa-headphones"></i></div>
+          <h4 class="podcast-card__title">Episode 3: Coming Soon</h4>
+          <div class="podcast-card__skeleton-bar"></div>
+          <p class="podcast-card__text">Guest speaker being confirmed</p>
+        </div>
+        <div class="podcast-card podcast-card--skeleton reveal reveal-delay-2">
+          <div class="podcast-card__icon"><i class="fas fa-headphones"></i></div>
+          <h4 class="podcast-card__title">Episode 4: Coming Soon</h4>
+          <div class="podcast-card__skeleton-bar"></div>
+          <p class="podcast-card__text">Topic selection underway</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  USER VOICES SECTION
+  ========================================== -->
+  <section class="section voices" id="voices">
+    <div class="container">
+      <div class="voices__header">
+        <span class="section__label reveal">Opinion & Analysis</span>
+        <h2 class="section__title reveal reveal-delay-1">User Voices</h2>
+        <p class="section__subtitle reveal reveal-delay-2">
+          Student voices, analytical articles, research papers, and opinion pieces — coming soon.
+        </p>
+      </div>
+
+      <div class="voices__counter reveal" style="display:table;margin:0 auto 2rem;">
+        <span style="color:var(--color-amber);font-weight:700;">✦</span> Coming soon — accepting student submissions
+      </div>
+
+      <div class="rss-feed reveal" style="margin-bottom:3rem;">
+        <div class="rss-feed__icon"><i class="fas fa-feather-alt"></i></div>
+        <h3 class="rss-feed__title">User Voices — Launching Soon</h3>
+        <p class="rss-feed__text">
+          The User Voices section is currently in development. Soon you will be able to read analytical articles,
+          research papers, and opinion pieces submitted by students from 87 countries worldwide.
+          Stay tuned for our official launch!
+        </p>
+        <div class="rss-feed__status" style="background:rgba(245,158,11,0.1);color:var(--color-amber);">
+          <span class="pulse-ring" style="background:var(--color-amber);"></span>
+          Coming Soon
+        </div>
+      </div>
+
+      <!-- Submit Your Voice Form -->
+      <div class="submit-voice reveal">
+        <h3 class="submit-voice__title">Submit Your Voice</h3>
+        <p class="submit-voice__subtitle">Share your analytical article, research paper, academic essay, or opinion piece with the Civitas community.</p>
+        <form id="voiceForm" novalidate>
+          <div class="form__group">
+            <label for="fullName" class="form__label">Full Name</label>
+            <input type="text" id="fullName" class="form__input" placeholder="e.g., Aziz Karimov" required>
+          </div>
+          <div class="form__group">
+            <label for="school" class="form__label">School / University Name</label>
+            <input type="text" id="school" class="form__input" placeholder="e.g., Tashkent State University of Law" required>
+          </div>
+          <div class="form__group">
+            <label for="topic" class="form__label">Article Topic / Title</label>
+            <input type="text" id="topic" class="form__input" placeholder="e.g., The Role of Youth in Diplomacy" required>
+          </div>
+          <div class="form__group">
+            <label class="form__label">Upload Your Article</label>
+            <div class="file-upload" id="fileUpload">
+              <div class="file-upload__icon"><i class="fas fa-cloud-upload-alt"></i></div>
+              <p class="file-upload__text">
+                <strong>Click to upload</strong> or drag and drop your file here
+              </p>
+              <p class="file-upload__formats">Supported formats: .doc, .docx, .pdf (Max 10 MB)</p>
+              <div class="file-upload__preview" id="filePreview">
+                <i class="fas fa-check-circle"></i>
+                <span id="fileName">file.pdf</span>
+              </div>
+              <input type="file" id="fileInput" accept=".doc,.docx,.pdf" hidden>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg form__submit">
+            <i class="fas fa-paper-plane"></i> Submit Article
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  JOIN SECTION
+  ========================================== -->
+  <section class="section join" id="join">
+    <div class="container">
+      <div class="join__header">
+        <span class="section__label reveal">Join the Team</span>
+        <h2 class="section__title reveal reveal-delay-1">Become Part of Civitas</h2>
+        <p class="section__subtitle reveal reveal-delay-2">
+          We are building the core team. Whether you write, design, or manage — there is a place for you.
+        </p>
+      </div>
+
+      <div class="join__cards">
+        <div class="join-card reveal">
+          <div class="join-card__icon join-card__icon--writer">
+            <i class="fas fa-feather-alt"></i>
+          </div>
+          <h3 class="join-card__title">Become a Staff Writer</h3>
+          <p class="join-card__text">
+            For youth who want to edit, research, and write consistently about politics, international relations, 
+            and social issues. Gain editorial experience, build your portfolio, and have your work featured 
+            across our platforms.
+          </p>
+          <a href="#" class="btn btn--outline">Learn More</a>
+        </div>
+
+        <div class="join-card reveal reveal-delay-1">
+          <div class="join-card__icon join-card__icon--designer">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3 class="join-card__title">Join as SMM or Designer</h3>
+          <p class="join-card__text">
+            For media creators, graphic designers, and social growth hackers who want to shape the visual 
+            identity and digital presence of a growing political platform. Run campaigns, design assets, 
+            and grow our community.
+          </p>
+          <a href="#" class="btn btn--outline">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Telegram Application -->
+      <div class="telegram-apply reveal">
+        <h3 class="telegram-apply__title">Send Your Application</h3>
+        <form id="telegramForm" class="telegram-apply__form">
+          <input type="text" class="form__input" id="telegramUsername" placeholder="Your Telegram Username (@example)" pattern="^@\w+$" title="Must start with @ followed by your username" required>
+          <button type="submit" class="btn btn--primary">Send Application</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  COLLAB SECTION
+  ========================================== -->
+  <section class="section collab" id="collab">
+    <div class="container">
+      <div class="collab__header">
+        <span class="section__label reveal">Partnerships</span>
+        <h2 class="section__title reveal reveal-delay-1">Collaborate With Us</h2>
+        <p class="section__subtitle reveal reveal-delay-2">
+          We welcome partnerships with educational institutions, experts, and organizations that share our vision.
+        </p>
+      </div>
+
+      <div class="collab__grid">
+        <div class="collab-column reveal">
+          <div class="collab-column__icon collab-column__icon--school">
+            <i class="fas fa-university"></i>
+          </div>
+          <h3 class="collab-column__title">School &amp; University Partnerships</h3>
+          <p class="collab-column__text">
+            We invite local educational institutions to open official Civitas chapters on their campuses. 
+            Partner with us to provide your students with a platform for political discourse, analytical writing, 
+            and civic engagement. Fill out the form below to start the conversation.
+          </p>
+          <form id="schoolForm">
+            <div class="form__group">
+              <input type="text" class="form__input" placeholder="Institution Name" required>
+            </div>
+            <div class="form__group">
+              <input type="email" class="form__input" placeholder="Contact Email" required>
+            </div>
+            <button type="submit" class="btn btn--outline" style="width:100%;">
+              <i class="fas fa-handshake"></i> Submit Partnership Inquiry
+            </button>
+          </form>
+        </div>
+
+        <div class="collab-column reveal reveal-delay-1">
+          <div class="collab-column__icon collab-column__icon--speaker">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h3 class="collab-column__title">Guest Speakers &amp; Experts</h3>
+          <p class="collab-column__text">
+            We invite political scientists, diplomats, professors, and policy experts to speak at our events, 
+            contribute to our podcast, or mentor our writers. Share your expertise and help shape the next 
+            generation of politically conscious youth.
+          </p>
+          <form id="speakerForm">
+            <div class="form__group">
+              <input type="text" class="form__input" placeholder="Full Name &amp; Title" required>
+            </div>
+            <div class="form__group">
+              <input type="email" class="form__input" placeholder="Email Address" required>
+            </div>
+            <button type="submit" class="btn btn--outline" style="width:100%;">
+              <i class="fas fa-microphone"></i> Express Interest
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="collab__contact reveal">
+        <p class="collab__contact-label">General Inquiries</p>
+        <a href="mailto:civitasglobal05@gmail.com" class="collab__contact-email">
+          civitasglobal05@gmail.com <i class="fas fa-external-link-alt" style="font-size:0.8rem;"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+  FOOTER
+  ========================================== -->
+  <footer class="footer" id="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="logo">Civitas <span>Politics</span></div>
+        <p class="footer__description">
+          An independent, youth-led platform enhancing political literacy and fostering critical thinking 
+          among the younger generation. Official member of the Civitas Global network.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="footer__heading">Navigate</h4>
+        <ul class="footer__links">
+          <li><a href="#home" class="footer__link">Home</a></li>
+          <li><a href="#news" class="footer__link">News</a></li>
+          <li><a href="#press" class="footer__link">Press</a></li>
+          <li><a href="#podcasts" class="footer__link">Podcasts</a></li>
+          <li><a href="#voices" class="footer__link">User Voices</a></li>
+          <li><a href="#reach" class="footer__link">Global Reach</a></li>
+          <li><a href="#join" class="footer__link">Join</a></li>
+          <li><a href="#collab" class="footer__link">Collab</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer__heading">Categories</h4>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">Foreign Policy</a></li>
+          <li><a href="#" class="footer__link">Political Theory</a></li>
+          <li><a href="#" class="footer__link">International Relations</a></li>
+          <li><a href="#" class="footer__link">Civic Engagement</a></li>
+          <li><a href="#" class="footer__link">Youth Leadership</a></li>
+          <li><a href="#" class="footer__link">Central Asia</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer__heading">Connect</h4>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="Telegram">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Twitter / X">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+        </div>
+        <ul class="footer__links">
+          <li><a href="mailto:civitasglobal05@gmail.com" class="footer__link">civitasglobal05@gmail.com</a></li>
+          <li><a href="#" class="footer__link">Privacy Policy</a></li>
+          <li><a href="#" class="footer__link">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__disclaimer">
+      <p class="footer__disclaimer-title">
+        <i class="fas fa-scale-balanced"></i> Disclaimer
+      </p>
+      <p class="footer__disclaimer-text">
+        The analytical pieces, opinions, and views expressed in the "User Voices" section belong solely to the 
+        respective student authors and do not necessarily reflect the official political stance or editorial views 
+        of Civitas Politics or its global affiliates.
+      </p>
+    </div>
+
+    <div class="footer__bottom">
+      &copy; 2025&ndash;2026 Civitas Politics. All rights reserved. Built with purpose by the youth, for the youth.
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
