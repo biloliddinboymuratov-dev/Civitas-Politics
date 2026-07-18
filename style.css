@@ -1006,16 +1006,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .podcast-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
 .podcast-card {
   background: var(--bg-card);
   border-radius: var(--radius-lg);
-  padding: 2rem;
+  padding: 1.25rem 1.5rem;
   border: 1px solid var(--border-color);
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  text-align: left;
   transition: all var(--transition);
 }
 
@@ -1027,12 +1030,12 @@ h1, h2, h3, h4, h5, h6 {
 .podcast-card__icon {
   width: 48px;
   height: 48px;
+  min-width: 48px;
   background: rgba(37, 99, 235, 0.1);
   border-radius: var(--radius-full);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1rem;
   color: var(--color-electric);
   font-size: 1.25rem;
 }
@@ -1049,9 +1052,22 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-on-dark);
 }
 
+.podcast-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
 .podcast-card__text {
   font-size: 0.85rem;
   color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.podcast-card__guest {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: italic;
 }
 
 .podcast-card__meta {
@@ -1061,6 +1077,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .podcast-card__audio {
   width: 100%;
+  max-width: 360px;
   height: 40px;
   border-radius: var(--radius-sm);
 }
@@ -1073,8 +1090,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 12px;
   background: var(--color-light-gray);
   border-radius: var(--radius-sm);
-  margin: 0.75rem auto;
-  max-width: 60%;
+  margin: 0.5rem 0;
+  max-width: 200px;
   animation: shimmer 2s infinite;
 }
 
@@ -2096,10 +2113,6 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr;
   }
 
-  .podcast-grid {
-    grid-template-columns: 1fr;
-  }
-
   .voices__grid {
     grid-template-columns: 1fr;
   }
@@ -2195,6 +2208,24 @@ h1, h2, h3, h4, h5, h6 {
 
   .hero__actions .btn {
     width: 100%;
+  }
+
+  .podcast-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+  .podcast-card__body {
+    text-align: center;
+  }
+
+  .podcast-card__audio {
+    max-width: 100%;
+  }
+
+  .podcast-card__skeleton-bar {
+    margin: 0.5rem auto;
   }
 
   .section__title {
