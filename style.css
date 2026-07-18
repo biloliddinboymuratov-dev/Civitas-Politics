@@ -872,6 +872,15 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-secondary);
 }
 
+.press-item__link {
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.press-item__link:hover {
+  color: var(--color-red) !important;
+}
+
 /* =============================================
    PODCASTS SECTION
    ============================================= */
