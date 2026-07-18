@@ -1027,6 +1027,14 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
 }
 
+.podcast-card__cover {
+  width: 72px;
+  height: 72px;
+  min-width: 72px;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
 .podcast-card__icon {
   width: 48px;
   height: 48px;
@@ -2218,6 +2226,12 @@ h1, h2, h3, h4, h5, h6 {
 
   .podcast-card__body {
     text-align: center;
+  }
+
+  .podcast-card__cover {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto;
   }
 
   .podcast-card__audio {
