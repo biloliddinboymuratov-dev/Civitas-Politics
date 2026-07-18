@@ -1028,9 +1028,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .podcast-card__cover {
-  width: 72px;
-  height: 72px;
-  min-width: 72px;
+  width: 140px;
+  height: 140px;
+  min-width: 140px;
   border-radius: var(--radius-md);
   object-fit: cover;
 }
@@ -2229,8 +2229,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .podcast-card__cover {
-    width: 96px;
-    height: 96px;
+    width: 160px;
+    height: 160px;
     margin: 0 auto;
   }
 
